@@ -1,5 +1,5 @@
 import random
-from hangman_materials import word_list, logo, stages
+from Day7hangman_materials import word_list, logo, stages
 
 chosen_word = random.choice(word_list).lower()
 

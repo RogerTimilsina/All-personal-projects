@@ -11,7 +11,7 @@ is_on = True
 while is_on:
 
     print("--- Coffee Machine ---")
-    choice = input("Which coffee would you like? (espresso/latte/cappuccino): ")  .lower()
+    choice = input("Which coffee would you like? (espresso/latte/cappuccino): ").lower()
     if choice == "report":
         coffee_maker.report()
         money_machine.report()
